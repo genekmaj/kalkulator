@@ -18,6 +18,8 @@ namespace Kalkulator
                 Console.WriteLine("2. Odejmowanie");
                 Console.WriteLine("3. Mnożenie");
                 Console.WriteLine("4. Dzielenie");
+                Console.WriteLine("5. Pierwiastek");
+
 
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 0)
